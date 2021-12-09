@@ -1,0 +1,90 @@
+<!DOCTYPE html> <!-- DOCTYPER determina el tipo de documento, en este caso html-->
+<html lang="es"> <!--determina el lenguaje-->
+<head> <!-- Etiquetas que brindan informacion para desarrolladores y/o buscadores-->
+    <meta charset="UTF-8"> <!--Conjunto de caracteres que vamos a utilizar por cada idioma (regiones)-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- Determina la compatibilidad de distintos tipos de buscadores -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--Responsividad adaptable a distintos dispositivos-->
+    <title>Document</title> <!--Titulo de nuestro documento -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="Imagenes/LOGO HOTEL.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
+
+</head> <!-- Finaliza la etiqueta head -->
+<body>
+    <!-- Dentro de estas etiquetas, vemos el contenido completo de nuestra pagina / sitioweb -->
+<header >
+
+<nav class="headerleft">
+    <div class="logo_hotel_caja">
+        <img class="logo_hotel_subcaja" src="imagenes/LOGO HOTEL.png" width="500"  alt="logo-hotel-termal">  
+    </div>
+  
+    <div class="logo_hotel_reserva">
+        <img src="imagenes/Rererva ahora.png"alt="logo-hotel-termal">  
+    </div>
+</nav>
+
+    <nav class="nav">
+        <a class="nav_a" href="2elhotel.html">El Hotel</a>
+        <a class="nav_a" href="3habitaciones.html">Habitaciones</a>
+        <a class="nav_a" href="4spatermal.html">Spa Termal</a>
+        <a class="nav_a" href="5actividades.html">Actividades</a>
+    </nav>
+</header>
+
+<section>
+    <div class="fondovideo">
+        <iframe  class="video_back" width="560" height="300" src="https://www.youtube.com/embed/_9W0zaZW1eE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+</section>
+
+<section class="Grilla_titulos_y_parrafo">  
+    <h1 class="Titulos"> Conocenos</h1> <!-- Subtitulo -->
+        <p class="parrafo1">Con una ubicación privilegiada dentro del Parque Termal Dolores, Howard Johnson Hotel Termal Dolores posee 76 habitaciones de categoría standard, superior y junior suite con vista al campo y a la laguna. Equipadas con: Sommier, Smart TV con cable, aire frío-calor, frigo bar, escritorio, detectores de humo, línea telefónica DDN/DDI y cofre de seguridad.
+        Es el Hotel Termal más cercano a la Ciudad de Buenos Aires, ubicado a solo 200 km.</p>
+<br>
+</section>
+
+<footer >
+    <form class="Formulario">
+        <fieldset>
+            <legend> Dejanos tus datos y enterate de todas las promociones</legend>
+            <br>
+            <label for="Nombre_Apellido"> Nombre:</label>
+            <input type="text"name="Nombre_Apellido" placeholder="Ingrese su nombre aqui">
+            <label for="Nombre_Apellido"> Apellido:</label>
+            <input type="text"name="Nombre_Apellido" placeholder="Ingrese su Apellido aqui"><br><br>
+            <label for="Email"> Email:</label>
+            <input type="text"name="Email" placeholder="Ingrese su Email aqui">
+            <label for="Telefono"> Telefono:</label>
+            <input type="text"name="Telefono" placeholder="Ingrese su Telefono aqui"><br><br>
+            <h3>Acepta recibir emails promocionales</h3>
+            <input type="radio" name="Si" value="si">
+            <input type="radio" name="No" value="No">
+            <h3>Que puntuacion das a esta pagina</h3>
+            <select name="Puntuacion">
+            <option>Puntuacion</option>
+            <option value="1"> 1 -MALO </option>
+            <option value="2"> 2 -REGULAR </option>
+            <option value="3"> 3 -BUENO </option>
+            <option value="4"> 4 -MUY BUENO </option>
+                <input type="submit" value="Enviar formulario">
+                <input type="reset" value="Limpiar">
+                <input type="button" value="Sin accion">
+        </fieldset>
+    </form>
+    
+</footer>
+
+<aside class="publicidad">AV. BELGRANO, A 300 MTS DE RUTA 63  | PARQUE TERMAL DOLORES  | PROV. DE BUENOS AIRES
+    +5492245402252 | INFO@HJDOLORES.COM.AR  | WWW.HOTELTERMALDOLORES.COM.AR  
+     FACEBOOK / INSTAGRAM  : hjdoloreshoteltermal |</aside>
+</body>
+</html> <!-- Final de todo --> 
